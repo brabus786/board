@@ -1,0 +1,56 @@
+.wrap {
+    margin-bottom: 10px;
+    display      : flex;
+
+    textarea {
+        width        : 100%;
+        padding      : 8px 12px;
+        font-family  : Roboto;
+        font-style   : normal;
+        font-weight  : normal;
+        font-size    : 15px;
+        line-height  : 18px;
+        color        : #212934;
+        border       : none;
+        outline      : none;
+        background   : #FFFFFF;
+        box-shadow   : 0px 1px 1px rgba(0, 0, 0, 0.25);
+        border-radius: 2px;
+
+
+        &::placeholder {
+            color      : #989898;
+            font-family: Roboto;
+            font-style : normal;
+            font-weight: normal;
+            font-size  : 15px;
+            line-height: 18px;
+        }
+    }
+
+    .invalid {
+        // animation-duration: 3s;
+        // animation-name    : slidein;
+        outline:2px solid red;
+    }
+    // @keyframes slidein {
+    //     0% {
+    //         border: 3px solid rgba(248, 2, 2, 1);
+    //     }
+    //     20%{
+    //         border: 3px solid rgba(248, 2, 2, 0);
+    //     }
+    //     40%{
+    //         border: 3px solid rgba(248, 2, 2, 1);
+    //     }
+    //     60%{
+    //         border: 3px solid rgba(248, 2, 2, 0);
+    //     }
+    //     80%{
+    //         border: 3px solid rgba(248, 2, 2, 1);
+    //     }
+    //     100%{
+    //         border: 3px solid rgba(248, 2, 2, 0);
+    //     }
+    //   }
+}

@@ -1,0 +1,15 @@
+.board{
+    background:#1D8B77;
+    height: 100vh;
+    width: 100%;
+    padding: 60px 0;
+    box-sizing: border-box;
+
+    .container{
+        display: grid;
+        grid-template-columns: 300px 300px 300px;
+        column-gap: 20px;
+        width: max-content;
+        margin: auto;
+    }
+}
